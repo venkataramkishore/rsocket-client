@@ -31,3 +31,28 @@
 1622719273029:exit
 1622719307321:pull-and-fetch-stream-of-messages
 1622736463934:stop-stream
+1622830381729:request-response
+1622830753454:login("kishore","password123")
+1622831335352:login -username kishore -password password123
+1622831346067:login
+1622831361006:login --username kishore --password password123
+1622832378237:login --username "kishore" --password "password123"
+1622832699119:stop-stream
+1622832712467:login --username kishore --password password123
+1622832719381:stop-stream
+1622832723959:request-response
+1622833111746:login --username kishore --password password123
+1622833166624:stop-stream
+1622833251655:request-response
+1622833281206:fire-and-forget
+1622833287743:request-stream
+1622833293646:stream-stream
+1622833314481:fire-request
+1622833333754:stream-of-messages
+1622833345741:stop-stream
+1622833372820:logout
+1622833379186:request-response
+1622833399231:login --username kishore --password password123
+1622833406166:request-response
+1622833411598:stream-of-messages
+1622833416997:stop-stream
